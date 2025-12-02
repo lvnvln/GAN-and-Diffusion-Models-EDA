@@ -1,0 +1,28 @@
+# Jupyter checkpoint файлы
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Anaconda проекты
+anaconda_projects/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Временные файлы системы
+.DS_Store
+Thumbs.db
+
+# Файлы конфигурации IDE
+.vscode/
+.idea/
+
+# Виртуальные окружения
+venv/
+env/
+
+# Файлы с паролями и ключами
+.env
+.secret
+*.pem
+*.key
