@@ -1,0 +1,16 @@
+# Автоматическое определение текстовых файлов
+* text=auto
+
+# Jupyter Notebook файлы - всегда использовать LF
+*.ipynb text eol=lf
+*.ipynb diff=ipynb
+
+# Для Jupyter checkpoint папки
+.ipynb_checkpoints/* linguist-generated
+
+# Бинарные файлы
+*.jpg binary
+*.png binary
+*.gif binary
+*.pdf binary
+*.zip binary
